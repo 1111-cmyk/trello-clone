@@ -1,5 +1,5 @@
-import { Footer } from "@/app/(marketing)/_components/footer";
-import { Navbar } from "@/app/(marketing)/_components/navbar";
+import { Footer } from "@/app/(spash-screen)/components/footer";
+import { Navbar } from "@/app/(spash-screen)/components/navbar";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 

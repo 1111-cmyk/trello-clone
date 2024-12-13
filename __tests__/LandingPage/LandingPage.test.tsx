@@ -1,4 +1,4 @@
-import MarketingPage from "@/app/(marketing)/page";
+import MarketingPage from "@/app/(spash-screen)/page";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 

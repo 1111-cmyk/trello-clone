@@ -6,11 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Taskify - Canban Clone",
-    template: `%s | Canban Clone`,
+    default: "Trello",
+    template: `%s | Sachin Pandey`,
   },
-  description:
-    "Fullstack Canban Clone by RiP3rQ using CodeWithAntonio's tutorial",
+  description: "Trello Clone",
   icons: [
     {
       url: "/logo.svg",
