@@ -6,13 +6,8 @@
 .pnp.js
 .yarn/install-state.gz
 
-/app/(main)/(dashboard)
-/components
-/constants
-/hooks
-/lib
-/screenshots
-/actions
+
+
 # testing
 /coverage
 
