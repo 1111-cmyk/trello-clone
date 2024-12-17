@@ -1,102 +1,49 @@
+# Trello Clone (Next.js + Clerk + CockroachDB)
 
-# 📝 Taskify (Trello Clone) ✅
+A modern Trello-like task management application built with **Next.js** for the frontend, **Clerk** for user authentication, and **CockroachDB** for the database. **Prisma ORM** is used for interacting with the database.
 
-# App based on the tutorial off CodeWithAntonio
+---
 
-Youtube: https://www.youtube.com/@codewithantonio
+## Features
 
-Tutorial: https://youtu.be/pRybm9lXW2c?si=RBnQRFUe4EDfrYd6
+- **User Authentication**: Powered by **Clerk** for secure sign-in and sign-up.
+- **Task Management**: Create, update, and delete boards, lists, and cards, mimicking the Trello experience.
+- **CockroachDB**: Distributed and scalable PostgreSQL-compatible SQL database with Prisma integration.
+- **Next.js**: Optimized performance with server-side rendering and static site generation.
+- **Responsive Design**: Clean, modern UI styled with **Tailwind CSS**.
 
-## Description
-Fullstack NextJs 14 taskify app allowing users to create boards with lists and cards that can speed up process of developing software or just to create notes. This app allows users to organize lists and cards using the Drag n' Drop feature.
+---
 
-- Seamlessly collaborate with team members through a versatile Software as a Service (SaaS) application
-- Experience secure and user-friendly authentication via Clerk for streamlined access
-- Employ a user-friendly Drag n Drop feature to effortlessly organize lists and cards within boards
-- Utilize workspaces for efficient collaboration, ensuring teams can stay focused on their specific tasks
+## Tech Stack
 
-## Tech stack
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Authentication**: Clerk
+- **Database**: CockroachDB (PostgreSQL-compatible)
+- **ORM**: Prisma
+- **Deployment**: Vercel (Recommended)
 
-- **NextJs 14**
-- **React**
-- **Typescript**
-- **Tailwindcss**
-- **Server Actions**
-- **Clerk**
-- **Prisma**
-- **Planet Scale**
-- **MySql**
-- **Shadcn-ui**
-- **Stripe**
+---
 
-## Key features
+## Installation
 
-- Saas App
-- Authentication via Clerk
-- Workspaces
-- Creating boards, lists and cards
-- Organizing lists and cards via Drag n' Drop
-- Unsplash API for random  cover images
-- Activity logs
-- Boards, Lists and Cards actions
-- Boards limits for free users
-- Stripe subscription
+### 1. Clone the Repository
 
-### Screenshots
+git clone https://github.com/your-username/trello-clone.git
+cd trello-clone
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/1.PNG)
+### 2. Install Dependencies
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/2.PNG)
+npm install
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/3.PNG)
+### 3. Prisma Setup:
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/4.PNG)
+Generate the Prisma client:
+bash
+Copy code
+npx prisma generate
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/5.PNG)
+### 4.Start the Development Server:
 
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/6.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/7.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/8.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/9.png)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/10.png)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/11.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/12.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/13.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/14.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/15.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/16.PNG)
-
-![App Screenshot](https://raw.githubusercontent.com/RiP3rQ/Trello-Clone-NextJs-/main/screenshots/17.PNG)
-
-
-MIT License
-
-Copyright (c) 2023 Antonio Erdeljac
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+bash
+Copy code
+npm run dev
